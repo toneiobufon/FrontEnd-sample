@@ -75,16 +75,7 @@ const Home = () => {
                     About me{" "}
                   </Button>
                 </Flex>
-                <Box mt={6}>
-                  <Text
-                    textStyle="p"
-                    textAlign="center"
-                    color="black"
-                    opacity={0.1}
-                  >
-                    &copy; 2021 Antonio Jimenez
-                  </Text>
-                </Box>
+                
               </Box>
             </Flex>
           </Box>
@@ -92,11 +83,11 @@ const Home = () => {
       </Box>
       {/* Details */}
       <Box flex="1" bg="black" p={[10, 10, 20, 20]}>
-        <Heading as="h1" color="white" textStyle="h1">
-          IMPROVING  <br />
-          TO BECOME A BETTTER
-          <br /> FULL-STACK
-          <br /> ENGINEER
+        <Heading as="h1" color="yellow" textStyle="h1">
+        FULL  <br />
+          STACK
+          <br /> DEVELOPER
+          <br /> 
         </Heading>
         <Text textStyle="p">
           Forget about hype, self affirmation and other bullshit. I don’t do
@@ -129,9 +120,28 @@ const Home = () => {
           >
             See past projects
           </Button>
+          <Box mt={6}>
+                  <Text
+                    textStyle="p"
+                    textAlign="center"
+                    color="white"
+                    opacity={0.7}
+                  >
+                    &copy; 2021 Antonio Jimenez
+                  </Text>
+                </Box>
+
+
+
         </Box>
       </Box>
+
+      
     </Flex>
+    
+
+
+
   );
 };
 
