@@ -49,10 +49,12 @@ const Home = () => {
                     borderRadius="full"
                     boxSize="100px"
                     // src="https://i.imgur.com/95knkS8.png"
-                    src = "/FrontEnd-sample/raven.jpg"
-                    alt="My Avatar"
+                     src = "/raven.jpg"
+                    fallbackSrc="https://i.imgur.com/Xca8yxZ.jpeg"
+                   
+                    alt="nonotar"
                   />
-                  <Text textStyle="p" color="blue">
+                  <Text textStyle="p" fontSize= " " color="dark-blue">
                     Antonio Jimenez
                   </Text>
                 </Flex>
@@ -63,7 +65,7 @@ const Home = () => {
                     px={8}
                     bg="linear-gradient(96.91deg, rgba(255, 255, 255, 0.44) 5.3%, #BDC3DD 83.22%)"
                   >
-                    Read my blog
+                    Read my 
                   </Button>
                   <Spacer />
                   <Button
@@ -82,11 +84,11 @@ const Home = () => {
         </Center>
       </Box>
       {/* Details */}
-      <Box flex="1" bg="black" p={[10, 10, 20, 20]}>
-        <Heading as="h1" color="yellow" textStyle="h1">
-        FULL  <br />
-          STACK
-          <br /> DEVELOPER
+      <Box flex="1" bg="black" p={[50, 50, 50, 50]}>
+        <Heading as="h1" color="CYAN" textStyle="h1">
+          FULL  <br />
+            STACK
+            <br /> DEVELOPER
           <br /> 
         </Heading>
         <Text textStyle="p">
@@ -115,10 +117,11 @@ const Home = () => {
           <Button
             bg="linear-gradient(96.91deg, #BDC3DD 5.3%, #000000 83.22%)"
             w={"100%"}
-            color="white"
+           
+            color="yellow"
             _hover={{ color: "black", bg: "white" }}
           >
-            See past projects
+            Past Projects
           </Button>
           <Box mt={6}>
                   <Text
