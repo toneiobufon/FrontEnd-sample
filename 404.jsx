@@ -1,5 +1,3 @@
-// 404.jsx
-
 import React from "react";
 import {
   Container,
