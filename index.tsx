@@ -34,7 +34,8 @@ const Home = () => {
             <Flex justify="center">
               <Box
                 borderRadius={10}
-                bg="rgba(209, 213, 230, 0.5)"
+                // bg="rgba(209, 213, 230, 0.5)"
+                bg= "linear-gradient(96.91deg, rgba(255, 255, 255, 0.44) 5.3%, #BDC3DD 83.22%)"
                 w="70%"
                 maxW={400}
                 height={200}
@@ -65,7 +66,7 @@ const Home = () => {
                     px={8}
                     bg="linear-gradient(96.91deg, rgba(255, 255, 255, 0.44) 5.3%, #BDC3DD 83.22%)"
                   >
-                    Read my 
+                    Read my story
                   </Button>
                   <Spacer />
                   <Button
