@@ -6,6 +6,9 @@
 
 
 // export default App;
+import { HomePage } from "./client/pages"
+
+
 
 import React from "react";
 import {
@@ -148,5 +151,7 @@ const Home = () => {
 
   );
 };
+
+// export default () => <HomePage/>;
 
 export default Home;
