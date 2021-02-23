@@ -39,11 +39,12 @@ export const Home = () => {
                   <Image
                     borderRadius="full"
                     boxSize="100px"
-                    src="https://i.imgur.com/95knkS8.png"
+                    // src="https://unsplash.com/photos/qbsdrZZ0M4c"
+                    src="https://i.imgur.com/lxowwz1.jpeg"
                     alt="My Avatar"
                   />
                   <Text textStyle="p" color="black">
-                    Angela McReynolds
+                    Antonio Jimenez
                   </Text>
                 </Flex>
                 <Flex mt={4} color="rgba(110, 118, 158, 0.6)">
@@ -74,7 +75,7 @@ export const Home = () => {
                     color="black"
                     opacity={0.1}
                   >
-                    &copy; 2020 Angela McReynolds
+                    &copy; 2021 Antonio Jimenez
                   </Text>
                 </Box>
               </Box>
@@ -85,31 +86,25 @@ export const Home = () => {
       {/* Details */}
       <Box flex="1" bg="black" p={[10, 10, 20, 20]}>
         <Heading as="h1" color="white" textStyle="h1">
-          THE <br />
-          WORLD'S BEST
-          <br /> FRONTEND
-          <br /> ENGINEER
+          WORKING <br />
+          TO IMPROVE
+          <br /> FULL-STACK
+          <br /> SKILLS
         </Heading>
         <Text textStyle="p">
-          Forget about hype, self affirmation and other bullshit. I don’t do
-          those.
+          Just for practice
         </Text>
 
         <Text textStyle="p">
-          I’ve got results. in 2015, 2016, 2017, 2018 and 2020 I was voted the
-          world’s best frontend engineer by peers and designers all around the
-          world.
+          Practice might take me to perfection
         </Text>
 
         <Text textStyle="p">
-          A thorough election was conducted, and I came out on top. I’ve got
-          brains and I use them, You’re lucky to have stumbled here.
+          OK, not perfect, but will help me improve 
         </Text>
 
         <Text textStyle="p">
-          While living on Mars i spent decades mastering the art of computer
-          programming. On arriving earth in 2013, I constantly laughed at our
-          pathetic the developers on earth were. You're all lucky to have me.
+          More bugs to come, ready to face them  
         </Text>
 
         <Box>

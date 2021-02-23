@@ -9,7 +9,7 @@ const PROJECTS = [
       id: 2,
       client: "Qatar 2022",
       description:
-        "Creating a map and budged for a trip to Qatar",
+        "Creating a map and budget for a trip to Qatar",
       duration: 255,
     },
     {

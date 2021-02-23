@@ -1,4 +1,4 @@
-import { PageWrapper } from "../makePages";
+import { PageWrapper } from "../../makePages";
 import { Home } from "./Home";
 
 export const HomePage = () => (

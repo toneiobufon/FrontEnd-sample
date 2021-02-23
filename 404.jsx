@@ -13,14 +13,14 @@ export default () => (
   <PageWrapper>
     <Container bg="black">
       <Heading textStyle="h1" mt={7} textAlign="center" color="white">
-        You seem lost :({" "}
+        You seem lost !!{" "}
       </Heading>
       <Text textStyle="p" textAlign="center">
         <Link href="/" color="brand.900">
           Go home
         </Link>
       </Text>
-      <Image src="https://i.imgur.com/lA3vpFh.png" />
+      <Image src="https://i.imgur.com/7SdxM1S.png" />
     </Container>
   </PageWrapper>
 );

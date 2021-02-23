@@ -1,5 +1,5 @@
 // About/About.tsx
-import { PageWrapper } from "../makePages";
+import { PageWrapper } from "../../makePages";
 import { About } from "./About"
 
 export const AboutPage = () => (
