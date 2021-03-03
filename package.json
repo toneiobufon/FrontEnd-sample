@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "zero",
     "build": "zero build",
-    "start": "npx zero"
+    "start": "NODE_ENV=production zero"
+    
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
@@ -29,7 +30,8 @@
     "react-hot-loader": "^4.12.15",
     "regenerator-runtime": "^0.12.0",
     "styled-components": "^5.2.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "zero": "latest"
   },
   "alias": {
     "react-dom": "@hot-loader/react-dom"
