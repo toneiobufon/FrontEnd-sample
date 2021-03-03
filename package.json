@@ -2,6 +2,8 @@
   "name": "zero-app",
   "private": true,
   "scripts": {
+    "dev": "zero",
+    "build": "zero build",
     "start": "npx zero"
   },
   "dependencies": {
